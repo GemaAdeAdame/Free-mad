@@ -1,12 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
+import './Componentes/Home';
+import './Componentes/Login';
+import './Componentes/Eventosmad';
+import './Componentes/Eventosdrag';
+import './Componentes/Frikicoders';
+import './Componentes/Carrito';
 
 function App() {
   return (
-    <>
-      <h1>Holaa mundo</h1>
-      <h2>Mundo</h2>
-    </>
+    
+      <Home />
+      
+    
   );
 }
 
