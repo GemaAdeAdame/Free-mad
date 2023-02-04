@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./Componentes/Home";
+import Login from "./Componentes/Login";
+import Frikicoders from "./Componentes/Frikicoders";
+import Eventosmad from "./Componentes/Eventosmad";
+import Eventosdrag from "./Componentes/Eventosdrag";
+import Carrito from "./Componentes/Carrito";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div>
+      <Home />
+      <Login />
+      <Frikicoders />
+      <Eventosmad />
+      <Eventosdrag />
+      <Carrito />
+     </div>
+     
+     
+    
+   
+  
   );
 }
 

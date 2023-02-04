@@ -1,4 +1,15 @@
-.App {
+@import './Componentes/Home.css';
+@import './Componentes/Login.css';
+@import './Componentes/Eventosmad.css';
+@import './Componentes/Eventosdrag.css';
+@import './Componentes/Frikicoders.css';
+@import './Componentes/Carrito.css';
+
+
+
+
+
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+*/

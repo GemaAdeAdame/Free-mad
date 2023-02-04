@@ -2,7 +2,13 @@
   "name": "free-mad",
   "version": "0.1.0",
   "private": true,
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
   "dependencies": {
+    "-": "^0.0.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
@@ -14,6 +20,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.0",
     "react-scripts": "5.0.1",
+    "victormono": "^1.5.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
