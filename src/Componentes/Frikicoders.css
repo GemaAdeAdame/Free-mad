@@ -113,23 +113,29 @@
 }
 
 .evenIm {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     position: relative;
-    margin-bottom: 2em;
+   
+    
 }
+
 
 .card_img {
     width: 100%;
+    border-radius: 20px;
+    margin-top: -32px;
 }
 
 .card_title {
     margin-bottom: 1em;
+    font-weight:900;
 }
 
 .boton {
    width: 100%;
    align-items: center;
+   margin-top: -72px;
     
 }
 

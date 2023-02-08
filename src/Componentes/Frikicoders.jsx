@@ -19,7 +19,7 @@ function Frikicoders() {
               <p class="card_paragraph letra_l" >El evento tecnológico dedicado al metaverso, web3, realidad virtual y realidad aumentada,se celebrará el 31 de marzo y 1 de abril,en La Nave de Madrid, el centro de innovación más importante de Madrid.</p>
             </div>
             
-            <a href="https://www.lanavemadrid.com/actividad/meta-world-congress-2023/"><button class="boton bg-pink-500 hover:bg-pink-400 text-white font-bold py-4 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+            <a href="https://www.lanavemadrid.com/actividad/meta-world-congress-2023/" rel="noopener"><button class="boton bg-red-500 hover:bg-red-400 text-white font-bold py-4 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
             + INFO</button></a>
 
           </div>
@@ -35,7 +35,7 @@ function Frikicoders() {
               </div>
 
              
-                <a href="https://www.eventbrite.es/e/entradas-innovando-en-femenino-mujeres-en-montegancedo-519661570747"><button class="boton bg-purple-500 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-blue-500 rounded">+ INFO</button></a>
+                <a href="https://www.eventbrite.es/e/entradas-innovando-en-femenino-mujeres-en-montegancedo-519661570747" rel="noopener"><button class="boton bg-purple-500 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-blue-500 rounded">+ INFO</button></a>
             
             </div>
 
@@ -49,7 +49,7 @@ function Frikicoders() {
               </div>
 
               
-                <a href="https://www.eventbrite.com/e/entradas-clase-introduccion-a-reactjs-519910405017"><button class="boton bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 border-b-4 border-blue-800 hover:border-blue-500 rounded">+ INFO</button></a>
+                <a href="https://www.eventbrite.com/e/entradas-clase-introduccion-a-reactjs-519910405017" rel="noopener"><button class="boton bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 border-b-4 border-blue-800 hover:border-blue-500 rounded">+ INFO</button></a>
               
             </div>
 
@@ -62,7 +62,7 @@ function Frikicoders() {
                 <p class="card_paragraph letra_l" >Hemos preparado un programa lo más variado y completo posible, con charlas divulgativas y técnicas, inspiradoras y de profundidad. ¡Esto es lo que podrás encontrar en los cuatro tracks durante el jueves 2 y viernes 3 de marzo!</p>
               </div> 
               
-                <a href="https://www.eventbrite.es/e/entradas-t3chfest-2023-515596953367?aff=ebdssbcategorybrowse"><button class="boton bg-orange-500 hover:bg-green-300 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-orange-500 rounded">+ INFO</button></a>
+                <a href="https://www.eventbrite.es/e/entradas-t3chfest-2023-515596953367?aff=ebdssbcategorybrowse" rel="noopener"><button class="boton bg-orange-500 hover:bg-green-300 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-orange-500 rounded">+ INFO</button></a>
              
             </div>
       </div>
