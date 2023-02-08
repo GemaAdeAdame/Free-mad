@@ -32,6 +32,8 @@
 .content {
     width: 100%;
     text-align:center;
+    margin-top: 20%;
+    padding-top: 10%;
     font-size:2em;
     color:#fff;
     letter-spacing: 7px;
@@ -134,8 +136,15 @@
 
 .boton {
    width: 100%;
+   background: red;
+   color: white;
+   font: bold;
    align-items: center;
-   margin-top: -72px;
-    
+   margin-top: -72px;    
+}
+
+.boton:hover {
+background: rgb(240, 109, 109);
+border: blue;
 }
 
