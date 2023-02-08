@@ -4,3 +4,110 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.completo {
+    background: linear-gradient(
+        219deg,
+        rgba(100, 92, 187, 1) 0%,
+        rgba(38, 84, 124, 1) 40%,
+        rgba(251, 54, 64, 1) 60%,
+        rgba(126, 141, 133, 1)80%
+        );
+    background-size: 200%,200%;
+    animation: movimiento 5s linear infinite alternate;
+}
+
+@keyframes movimiento {
+    from {
+      background-position: 0 0;
+    }
+    to{
+      background-position: 100% 100%;
+    }
+  }
+   
+
+.hit-the-floor {
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px;
+    color: #161414;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Share Tech Mono';
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    }
+    
+    .hit-the-floor {
+      text-align: center;
+    }
+
+.letra_l {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.container_l {
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;     
+}
+
+.evento1_l, .evento2_l, .evento3_l, .evento4_l {
+    transform-style: preserve-3d;
+    width: 50%;
+    margin: 0 auto;
+    height: 650px;
+    margin-top: 10px;
+    display: inline;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 3em;
+    max-width: 400px;
+    background: linear-gradient(
+      25deg,
+      rgba(100, 92, 187, 1) 30%,
+      rgba(209, 209,102, 1) 86%
+    );
+    transition: all 0.15s ease;
+}
+
+.letra_l {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.evenIm {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card_title {
+    margin-bottom: 1em;
+}
+
+.boton {
+   width: 100%;
+   align-items: center;
+    
+}
+
