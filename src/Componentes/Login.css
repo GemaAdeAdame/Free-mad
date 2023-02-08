@@ -85,12 +85,25 @@
     color: red;
   }
 
+  @media (min-width: 600px) {
   .css-179yft1 {
     margin: 0 auto !important;
     width: 50% !important;
     background-color:  #000 !important;
     border-radius: 8px !important;
   }
+  
+  }
+
+  @media (min-width: 400px) {
+    .css-179yft1 {
+      margin: 0 auto !important;
+      /*width: 50% !important;*/
+      background-color:  #000 !important;
+      border-radius: 8px !important;
+    }
+  }
+
 
   .swal-button {
     background-color: #06D6A0;
