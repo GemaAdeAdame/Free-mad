@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+
+.css-co5tlx-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+    color: #06D6A0 !important;
+}
+
+.css-imwso6-MuiBottomNavigationAction-label {
+    font-family: 'Mandali' !important;
+}
