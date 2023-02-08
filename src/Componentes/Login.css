@@ -9,6 +9,10 @@
   box-sizing: border-box;
   font-family: 'Mandali';
 }
+h1 {
+  color: violet !important;
+  font-family: 'mandali';
+}
 
 /*Título*/
 .g-titulo {
@@ -91,6 +95,8 @@
     width: 50% !important;
     background-color:  #000 !important;
     border-radius: 8px !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
   }
   
   }
@@ -101,6 +107,8 @@
       /*width: 50% !important;*/
       background-color:  #000 !important;
       border-radius: 8px !important;
+      margin-top: 40px !important;
+      margin-bottom: 40px !important;
     }
   }
 
