@@ -7,8 +7,8 @@ import techfest from '../images/techfest.jpeg'
 function Frikicoders() {
   return (
     <div class="completo">
-      <div class="content hit-the-floor">   
-         Hello FemCoders listas para programar¡       
+      <div class="content">   
+         Hello    FrikiCoders     Events¡       
       </div>
       <div class="container_l">
           <div class="evento1_l">
