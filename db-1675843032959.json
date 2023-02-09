@@ -1,0 +1,74 @@
+{
+  "peliculas de madrid": [
+    {
+      "id": 1,
+      "nombre": "Abre los ojos",
+      "director": "Alejandro Amenabar",
+      "clasificación": "drama"
+    },
+    {
+      "id": 2,
+      "nombre": "Stockholm",
+      "director": "Rodrigo Sorogoyen",
+      "clasificación": "drama"
+    },
+    {
+      "id": 3,
+      "nombre": "Magical Girl",
+      "director": "Carlos Vermut",
+      "clasificación": "drama"
+    },
+    {
+      "id": 4,
+      "nombre": "El ultimatum de Bourne",
+      "director": "Paul Greengrass",
+      "clasificación": "acción"
+    },
+    {
+      "id": 5,
+      "nombre": "Que Dios nos perdone",
+      "director": "Rodrigo Sorogoyen",
+      "clasificación": "thriller"
+    },
+    {
+      "id": 6,
+      "nombre": "Que he hecho yo para merecer esto",
+      "director": "Pedro Almodovar",
+      "clasificación": "comedia"
+    },
+    {
+      "id": 7,
+      "nombre": "Barrio",
+      "director": "Fernando Leon de Aranoa",
+      "clasificación": "drama"
+    },
+    {
+      "id": 8,
+      "nombre": "El otro lado de la cama",
+      "director": "Emilio Martinez-Lazaro",
+      "clasificación": "musical"
+    }
+  ],
+  "clasificaciones": [
+    {
+      "nombre": "drama",
+      "id": 1
+    },
+    {
+      "nombre": "comedia",
+      "id": 2
+    },
+    {
+      "nombre": "musical",
+      "id": 3
+    },
+    {
+      "nombre": "accion",
+      "id": 4
+    },
+    {
+      "nombre": "thriller",
+      "id": 5
+    }
+  ]
+}

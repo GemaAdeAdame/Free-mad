@@ -11,6 +11,7 @@
     "-": "^0.0.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@lottiefiles/react-lottie-player": "^3.5.2",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.8",
     "@mui/styled-engine-sc": "^5.11.0",
@@ -22,6 +23,10 @@
     "react-hook-form": "^7.43.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
+    "react-scripts": "5.0.1"
+    "styled-components": "^5.3.6",
+    "tailwindcss": "^1.9.6",
+    "sweetalert": "^2.1.2",
     "victormono": "^1.5.4",
     "web-vitals": "^2.1.4"
   },
