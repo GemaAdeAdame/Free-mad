@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap");
+
+.fondo_e {
+    background:linear-gradient( #17223b, #06D6A0, #FFD166, #FB3640, #7E8D85);
+    text-align: center;
+}
+
+.titulo_e {
+    color: whitesmoke;
+    font-size:xx-large;
+    padding: 2%;
+    font-family: 'Mandali', sans-serif;
+    text-shadow: 10px 10px 7px black;
+}
+
+.encabezado_e {
+    color: whitesmoke;
+    padding: 1%;
+    font-family: 'Mandali', sans-serif;
+    text-shadow: 8px 8px 7px black;
+}
+
+.parrafo_e {
+    color: whitesmoke;
+    padding: 2%;
+    font-family: 'Mandali', sans-serif;
+    text-shadow: 6px 6px 7px black;
+}
