@@ -1,0 +1,99 @@
+[
+{
+  "nombre": "Abre los ojos",
+  "director": "Alejandro Amenábar",
+  "clasificacion": "drama"
+},
+{
+  "nombre": "Stockholm",
+  "director": "Rodrigo Sorogoyen",
+  "clasificacion": "drama"
+},
+{
+  "nombre": "Magical Girl",
+  "director": "Carlos Vermut",
+  "clasificacion": "drama"
+},
+{
+  "nombre": "El ultimatum de Bourne",
+  "director": "Paul Greengrass",
+  "clasificacion": "acción"
+},
+{    
+  "nombre": "Que Dios nos perdone",
+  "director": "Rodrigo Sorogoyen",
+  "clasificacion": "thriller"
+},
+{
+  "nombre": "Que he hecho yo para merecer esto",
+  "director": "Pedro Almodóvar",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "Barrio",
+  "director": "Fernando León de Aranoa",
+  "clasificacion": "drama"
+},
+{
+  "nombre": "El otro lado de la cama",
+  "director": "Emilio Martínez-Lázaro",
+  "clasificacion": "musical"
+},
+{
+  "nombre": "La ley del deseo",
+  "director": "Pedro Almodóvar",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "Las brujas de Zugarramurdi",
+  "director": "Emilio Martinez-Lazaro",
+  "clasificacion": "musical"
+},
+{
+  "nombre": "El otro lado de la cama",
+  "director": "Alex de la Iglesia",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "Hablar",
+  "director": "Joaquín Oristrell",
+  "clasificacion": "crítica social"
+},
+{
+  "nombre": "Días de fútbol",
+  "director": "David Serrano de la Peña",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "Kiki, el amor se hace",
+  "director": "Paco León",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "Selfie",
+  "director": "Víctor García León",
+  "clasificacion": "documental"
+},
+{
+  "nombre": "Ópera prima",
+  "director": "Fernando Trueba",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "El día de la bestia",
+  "director": "Alex de la Iglesia",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "Patrimonio nacional",
+  "director": "Luis García Berlanga",
+  "clasificacion": "comedia"
+},
+{
+  "nombre": "La estanquera de Vallecas",
+  "director": "Eloy de la Iglesia",
+  "clasificacion": "comedia"
+}
+]
+  
+  

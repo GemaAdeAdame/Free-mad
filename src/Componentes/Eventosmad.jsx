@@ -9,15 +9,11 @@ import dali from '../images/dali.jpg'
 import alvarado from '../images/alvarado.jpg'
 import heart from '../images/heart.svg'
 
-
-
-
-
 function Eventosmad() {
   return (
     <div class="max-w-full h-auto container_e">
 
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap pt-9">
 
         <div class="rounded-lg shadow-lg bg-white max-w-sm m-8 tarjeta1_e">
           <a href="https://www.esmadrid.com/agenda/mayte-martin-quartet-auditorio-nacional-musica">
@@ -58,7 +54,7 @@ function Eventosmad() {
 
       </div>
 
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap pt-9">
 
         <div class="rounded-lg shadow-lg bg-white max-w-sm m-8 tarjeta5_e">
           <a href="https://www.esmadrid.com/agenda/ilustres-ignorantes-teatro-cofidis-alcazar">

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="peliculasmadrid.css" rel="stylesheet">
+    <title>MADRID COMO INSPIRACIÓN</title>
+</head>
+<body>
+
+    <div class="fondo_e">
+        <h1 class="titulo_e">Películas ambientadas en Madrid</h1>
+        <h2 class="encabezado_e">A continuación os indicamos una serie de películas que transcurren íntegra o parcialmente en las calles de Madrid:</h2>
+        <p id="data" class="parrafo_e"></p>
+
+        <h1 class="titulo_e">Canciones inspiradas en Madrid</h1>
+        <h2 class="encabezado_e">Canciones en las que Madrid es un protagonista más:</h2>
+        <p id="datos" class="parrafo_e"></p>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NiWkLgBZhpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+       
+    <script>
+        //Películas Madrid
+
+        fetch('./peliculasmadrid.json')
+        //.then(results => results.json())
+        //.then(console.log);
+        .then(function (response){
+            return response.json();
+        })
+
+        .then(function(peliculasmadrid){
+            for(var i = 0; i < peliculasmadrid.length;i++){
+                document.getElementById("data").innerHTML += peliculasmadrid[i].nombre + " " + "de" + " " + peliculasmadrid[i].director + "=========> " + peliculasmadrid[i].clasificacion + "<br />";
+            }
+        })
+        .catch(function(err){
+            console.log(err)
+        })
+
+        //Canciones Madrid
+        
+        fetch('./cancionesmadrid.json')
+        .then(function (response){
+            return response.json();
+        })
+
+        .then(function(cancionesmadrid){
+            for(var i = 0; i < cancionesmadrid.length;i++){
+                document.getElementById("datos").innerHTML += cancionesmadrid[i].nombre + " " + "de" + " " + cancionesmadrid[i].interprete + "<br />";
+            }
+        })
+        .catch(function(err){
+            console.log(err)
+        })
+
+
+
+
+    </script>
+</body>
+</html>
