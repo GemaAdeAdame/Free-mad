@@ -15,8 +15,8 @@ import Lolailo1 from '../images/lolailo.jpeg'
 import Lolailo2 from '../images/lolailo2.jpg'
 import Lolailo3 from '../images/lolailo3.jpg'
 
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+/*import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';*/
 
 
 
