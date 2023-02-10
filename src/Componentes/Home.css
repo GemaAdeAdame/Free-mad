@@ -17,12 +17,12 @@
     align-content: center;
     flex-wrap: wrap;
     padding: 35px;
-    font-family: 'Inter';
+    font-family: inter !important;
    
 }
 
 .ana-text {
-    color: white;
+    color: white !important;
     margin: 0 !important;
     font-size: 30px;
     padding: 5px;
@@ -39,13 +39,17 @@
 }
 
 .ana-imagen5{
+    position: relative;
     margin-bottom: 6rem;
     margin-left: 5rem;
     width: 25%;
+    z-index: 9;
 }
 
 .ana-imagen6{
     width: 40%;
+    margin-left: 11rem;
+    margin-top: -10rem;
     
 }
 
@@ -98,13 +102,13 @@
         position: absolute;
         top: 20%;
         right: 20% ;
-        z-index: 3;
+        z-index: 1;
         width: auto;
     }
     
     .ana-imagen6{
         position: absolute;
-        top: 40% ;
+        top: 65% ;
         right: 10% ;
         width: auto;
     }
