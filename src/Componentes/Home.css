@@ -1,3 +1,117 @@
-h1 {
-    color: violet;
+
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.ana-contenedor{
+    background-color: black;
+    margin: 0;
+    padding-bottom: 10rem;
+}
+
+.ana-textosection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 35px;
+    
+   
+}
+
+.ana-text {
+    color: white !important;
+    margin: 0 !important;
+    font-size: 30px !important;
+    padding: 5px;
+    max-width: 100%;
+    z-index: 4;
+    font-family: inter;
+}
+
+.ana-imagen3{
+    display: none;
+}
+
+.ana-imagen4{
+    display: none;
+}
+
+.ana-imagen5{
+    position: relative;
+    margin-bottom: 6rem;
+    margin-left: 5rem;
+    width: 25%;
+    z-index: 1;
+}
+
+.ana-imagen6{
+    width: 40%;
+    margin-left: 11rem;
+    margin-top: -10rem;
+}
+
+.css-1lvtzne{
+    justify-content: flex-end !important;
+}
+
+@media (min-width: 1200px){
+    .ana-contenedor{
+        background-color: black;
+        margin: 0 !important;
+        padding-bottom: 10rem;
+    }
+    
+    .ana-textosection{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 35px;
+        
+    }
+    
+    .ana-text {
+        color: white;
+        margin: 0 !important;
+        font-size: 55px !important;
+        padding: 5px;
+        max-width: 100%;
+        z-index: 4;
+    }
+    
+    .ana-imagen3{
+        position: absolute;
+        top: 15%;
+        left: 5% ;
+        display: inline;
+    }
+    
+    .ana-imagen4{
+        position: absolute;
+        top: 55%;
+        left: 12%;
+        display: inline;
+    }
+    
+    .ana-imagen5{
+        position: absolute;
+        top: 20%;
+        right: 20% ;
+        z-index: 1;
+        width: auto;
+    }
+    
+    .ana-imagen6{
+        position: absolute;
+        top: 65% ;
+        right: 10% ;
+        width: auto;
+    }
+
+    
 }

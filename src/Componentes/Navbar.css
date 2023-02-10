@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+
+.css-1t6c9ts {
+    justify-content: flex-end !important;
+    padding-right: 1% !important;
+}
+
+.ana-imagen1{
+    width: 100px;
+    margin-top: 1rem;
+}
+
+.ana-imagen2{
+    width: 150px;
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root{
+    font-family: 'Mandali' !important;
+}

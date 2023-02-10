@@ -1,3 +1,35 @@
-h4 {
-    color: pink;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap");
+
+
+.h1{
+    color: white !important;
+    justify-content: center;
+    text-align: center;
+    font-family: inter;
+    margin-bottom: 3rem;
+}
+.container_e{
+    background:linear-gradient( #17223b, #06D6A0, #FFD166, #FB3640, #7E8D85);
+   padding-top: 8rem;
+}
+
+.flex-wrap {
+    justify-content: center!important;
+}
+
+.text-base {
+    color: #26547c;
+}
+
+.font-bold {
+    color: #645cbb
+
+}
+
+.float-right {
+    color: #FB3640
 }

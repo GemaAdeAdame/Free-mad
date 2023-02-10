@@ -1,0 +1,37 @@
+#contenedor{
+   margin: 5rem;
+   margin-top: 5rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#temperatura-valor{
+    color: white !important;
+    font-size: large;
+    font-family: inter;
+}
+
+#temperatura-descripcion{
+    color: white !important;
+    font-size: large;
+    font-family: inter;
+}
+
+#ubicacion{
+    color: white !important;
+    font-size: large;
+    font-family: inter;
+}
+
+#texto-velocidad{
+    color: white !important;
+    font-size: large;
+    font-family: inter;
+}
+
+#viento-velocidad{
+    color: white !important;
+    font-size: large;
+    font-family: inter;
+}

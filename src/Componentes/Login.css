@@ -1,3 +1,162 @@
-.a-log {
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+
+/*Para toda la pág de Login*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mandali';
 }
+h1 {
+  color: violet !important;
+  font-family: 'mandali';
+  font-size: 3rem !important;
+}
+
+.css-179yft1 {
+  background-color: #17223b;
+  height: 45rem !important;
+  margin-top: 12rem !important;
+}
+
+/*Título*/
+.g-titulo {
+    color: #FFD166;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.g-avatar {
+  text-align: center;
+  color:#06D6A0;
+  width: 100px;
+  border-color: #06D6A0;
+}
+
+  body {
+    background:linear-gradient( #17223b, #06D6A0, #FFD166, #FB3640, #7E8D85);
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+  }
+  .container {  
+    border-radius: 2px;  
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+  }
+
+  .registrate-aqui{
+    font-size: 5rem;
+    color: white !important;
+  }
+  
+  #form-react {
+    padding: 30px 20px;  
+  }
+  .form-control {    
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 7px;
+    font:weight 200px;
+    color: #FFD166;
+  }
+  .form-control input {
+    border: none;
+    background-color: white;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;    
+  }
+  .form-control, input:focus {
+    outline: none;
+  }
+  .form-react button {
+    background: #06D6A0;
+    border:1px solid #645CBB;
+    border-radius: 9px;
+    color: #f6f6e9;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins';
+  }
+  .form-react button:hover {
+    background-color: #645CBB;
+    border: 1px solid #06D6A0;
+  }
+  .fail {
+    color: red;
+  }
+
+  @media (min-width: 600px) {
+  .css-179yft1 {
+    margin: 0 auto !important;
+    width: 60% !important;
+    background-color:  #000 !important;
+    border-radius: 8px !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+  
+  }
+
+  @media (min-width: 400px) {
+    .css-179yft1 {
+      margin: 0 auto !important;
+      /*width: 50% !important;*/
+      background-color:  #000 !important;
+      border-radius: 8px !important;
+      margin-top: 40px !important;
+      margin-bottom: 40px !important;
+    }
+  }
+
+
+  .swal-button {
+    background-color: #06D6A0;
+    color: #fff;
+    border-color: 2px solid #06D6A0;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.swal-text:first-child {
+  margin-top: 45px;
+  color: white;
+} 
+
+.swal-overlay--show-modal .swal-modal {
+  opacity: 1;
+  background-color: #645CBB;
+  color: white;
+  border: 2px solid #06D6A0;
+  pointer-events: auto;
+  box-sizing: border-box;
+  -webkit-animation: showSweetAlert .3s;
+  animation: showSweetAlert .3s;
+  will-change: transform;
+}
+
+.swal-button:hover {
+  color: black;
+  background-color: white;
+}
+
