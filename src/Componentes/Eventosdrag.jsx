@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Dragalada1 from '../images/drag.jpeg'
+import Dragalada2 from '../images/drrag.jpeg'
+
 
 import Escape1 from '../images/ghile.jpeg'
 import Escape2 from '../images/malasami.jpeg'
@@ -31,18 +34,9 @@ function Eventosdrag() {
             En cada edición de la Dragalada el elenco de artistas drags cambia, para mostrarle al público nuevos talentos y resaltar la diversidad del mundo drag. Entre los participantes de la Dragalada ha habido drag queens (hombres cis que se travisten de mujer), drag kings (mujeres cis que se travisten de hombre), artistas drags transexuales y no binarios, y hyper queens (mujeres cis que practican el arte del drag como drag queens).<br/></p>
         
         <section class='Fotos-dragalada'>
-         <ImageList sx={{ width: 550, height: 400 }} cols={2} rowHeight={164}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          <img
-            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-            alt={item.title}
-            loading="lazy"
-          />
-        </ImageListItem>
-      ))}
-    </ImageList>
+        <img src={Dragalada1} alt='Escape'/>
+        <img src={Dragalada2} alt='Escape' />
+     
         
         </section>
         </div>
@@ -115,32 +109,6 @@ function Eventosdrag() {
   
   )
 }
-
-
-const itemData = [
-  {
-    img: '/drag.jpeg',
-
-    title: 'Breakfast',
-  },
-
-  {
-    img: '/drrag.jpeg',
-    title: 'Camera',
-  },
-
-  {
-    img: '/dragaland.jpeg',
-    title: 'Hats',
-  },
-  {
-    img: '/dragalada.jpeg',
-    title: 'Honey',
-  },
- 
-  
-];
- 
 
 export default Eventosdrag
 
